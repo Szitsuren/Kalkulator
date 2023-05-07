@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <div id="przedluzenie">
+        <div id="dzialanie">0</div>
+    </div>
+    <div id="kalkulator">
+        <div id="ramka"><p id="pole">0</p></div> 
+        <div id="usun" class="przycisk" onclick="usun()">⌫</div><br>
+        <div class="przycisk" onclick="wstaw(1)">1</div>
+        <div class="przycisk" onclick="wstaw(2)">2</div>
+        <div class="przycisk" onclick="wstaw(3)">3</div>
+        <div class="przycisk" onclick="dzialanie(`/`)">/</div>
+        <div class="przycisk" onclick="czyszczenie()">C</div><br>
+        <div class="przycisk" onclick="wstaw(4)">4</div>
+        <div class="przycisk" onclick="wstaw(5)">5</div>
+        <div class="przycisk" onclick="wstaw(6)">6</div>
+        <div class="przycisk" onclick="dzialanie(`*`)">×</div>
+        <div class="przycisk" onclick="x.innerHTML *= x.innerHTML">x²</div><br>
+        <div class="przycisk" onclick="wstaw(7)">7</div>
+        <div class="przycisk" onclick="wstaw(8)">8</div>
+        <div class="przycisk" onclick="wstaw(9)">9</div>
+        <div class="przycisk" onclick="dzialanie(`+`)">+</div>
+        <div class="przycisk" onclick="x.innerHTML = Math.sqrt(x.innerHTML)">√x</div>
+        <div class="przycisk" onclick="ujemna()">+-</div>
+        <div class="przycisk" onclick="wstaw0()">0</div>
+        <div class="przycisk" onclick="kropka()">.</div>
+        <div class="przycisk" onclick="dzialanie(`-`)">-</div>
+        <div class="przycisk" onclick="rownanie()">=</div>
+    </div>
+    <div id="check" onclick="check()">✓</div>
+    <div id="rama"><p id="historia"></p></div>
+    <div id="clearownik" onclick="clearownik()">X</div>
+</body>
+<script src="script.js"></script>
+</html>
