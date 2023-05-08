@@ -1,0 +1,165 @@
+body {
+    max-height: 0px;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    user-select: none;
+}
+
+#dzialanie {
+    border: 6px hidden;
+    background-color: rgba(220, 20, 60, 0.5);
+    position: static;
+    display: inline-block;
+    padding-right: 10px;
+    margin: 4px;
+    width: 455px;
+    height: 84px;
+    border-radius: 25px;
+    position: static;
+    font-size: x-large;
+    font-family: OCR A Std, monospace;
+    text-align: right;
+    line-height: 80px;
+    color: white;
+    box-shadow: 5px 5px 2px 1px rgba(90, 19, 34, 0.671);
+    
+}
+#przedluzenie {
+    z-index: 1;
+    border: 8px solid rgb(143, 34, 56);
+    width: 480px;
+    height: 100px;
+    bottom: 0px;
+    padding: 20px;
+    border-radius: 25px 25px 0px 0px;
+    position: relative;
+    background-color: rgb(143, 34, 56);
+    box-shadow: 20px 0px 0px 0px rgba(90, 19, 34);
+}
+#kalkulator {
+    border: 8px solid rgb(143, 34, 56);
+    bottom: 30px;
+    width: 480px;
+    height: 480px;
+    padding: 20px;
+    border-radius: 25px 25px 5px 0px;
+    position: relative;
+    background-color: rgb(143, 34, 56);
+    box-shadow: 10px 10px 0px 10px rgba(90, 19, 34);
+}
+#pole {
+    color: crimson;
+    text-align: right;
+    font-family: OCR A Std, monospace;
+    font-size: xx-large;
+    line-height: 35px;
+}
+#ramka {
+    border: 6px hidden rgb(255, 255, 255);
+    background-color: whitesmoke;
+    position: static;
+    display: inline-block;
+    margin: 4px;
+    width: 370px;
+    height: 84px;
+    border-radius: 25px;
+    position:static;
+    box-shadow: 5px 5px 2px 1px rgba(90, 19, 34, 0.671);
+}
+#rama {
+    border: 8px solid rgb(143, 34, 56);
+    top: -770px;
+    left: 570px;
+    width: 280px;
+    height: 645px;
+    border-radius: 25px 25px 5px 5px;
+    position: relative;
+    background-color: rgb(143, 34, 56);
+    box-shadow: 10px 10px 0px 10px rgba(90, 19, 34);
+    overflow: hidden;
+}
+#historia{
+    font-size: x-large;
+    font-family: OCR A Std, monospace;
+    color:white;
+}
+#check {
+    border: 8px solid rgb(143, 34, 56);
+    text-align: center;
+    width: 60px;
+    height: 20px;
+    bottom: 30px;
+    padding: 20px;
+    border-radius: 0px 0px 25px 25px;
+    position: relative;
+    background-color: rgb(143, 34, 56);
+    box-shadow: 5px 5px 0px 5px rgba(90, 19, 34);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Franklin Gothic Medium;
+    font-size: 50px;
+    line-height: 10px;
+}
+#check:hover {
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    transition: 1s;
+}
+#check:active{
+    background-color: rgb(116, 30, 47);
+    border: 8px solid rgb(116, 30, 47);
+    transition: 1s;
+}
+#clearownik {
+    border: 8px solid rgb(143, 34, 56);
+    text-align: center;
+    width: 60px;
+    height: 20px;
+    left: 578px;
+    top: 667px;
+    padding: 20px;
+    float:left;
+    border-radius: 0px 0px 25px 25px;
+    position: absolute;
+    background-color: rgb(143, 34, 56);
+    box-shadow: 5px 5px 0px 5px rgba(90, 19, 34);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Franklin Gothic Medium;
+    font-size: 50px;
+    line-height: 10px;
+}
+#clearownik:hover {
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    transition: 1s;
+}
+#clearownik:active{
+    background-color: rgb(116, 30, 47);
+    border: 8px solid rgb(116, 30, 47);
+    transition: 1s;
+}
+.przycisk {
+    display: inline-block;
+    margin: 4px;
+    border: 4px solid crimson;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    border-radius: 25px;
+    position: static;
+    text-align: center;
+    font-size: x-large;
+    font-family: OCR A Std, monospace;
+    color: white;
+    background: crimson;
+    box-shadow: 2px 2px 2px 2px rgba(90, 19, 34, 0.671);
+    
+}
+.przycisk:hover {
+    background: rgb(233, 50, 87);
+    border: 4px solid rgb(233, 50, 87);
+}
+.przycisk:active {
+    background: rgb(250, 63, 63);
+    border: 4px solid rgb(250, 63, 63);
+}
